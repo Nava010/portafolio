@@ -1,0 +1,115 @@
+.contact {
+    width: 99vw;
+    height: 220px;
+}
+.contactTitle {
+    height: 100px
+}
+.contactTitle h1 {
+    position: relative;
+    top: 25%;
+    letter-spacing: 6px;
+    margin: 0;
+    padding: 5px;
+}
+.contactSection-box {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 120px;
+}
+.contactSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.contactSection p {
+    padding: 5px;
+    margin: 0;
+}
+.contactIcon {
+    width: 45px;
+    height: 30px;
+}
+@media(max-width: 163px) {
+    .contact {
+        position: relative;
+        top: 260px;
+    }
+    .contactTitle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+    }
+    .contactTitle h1 {
+        letter-spacing: 0;
+        top: 0; 
+    }
+    .contactSection-box {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        height: 50px;
+    }
+    .contactSection {
+        gap: 0;
+    }
+    .contactSection p {
+       
+        padding: 8px;
+        font-size:xx-small;
+    }
+    .contactIcon {
+        position: relative;
+        left: 5px;
+        width: 25px;
+        height: 15px;
+    }
+}
+
+@media((min-width: 164px) and (max-width:576px)) {
+    .contactTitle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+    }
+    .contactTitle h1 {
+        top: 0; 
+    }
+    .contactSection-box {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .contactSection {
+        gap: 0;
+    }
+}
+@media((min-width: 577px) and (max-width: 1113px)) {
+    .contactSection {
+        gap: 0;
+    }
+}
+@media(width: 1114px) {
+    .contactTitle {
+        display: flex;
+        align-items: flex-start;
+        height: 100px
+    }
+    .contactTitle h1 {
+        position: relative;
+        top: 25%;
+        letter-spacing: 6px;
+        margin: 0;
+        padding-left: 15px;
+    }
+    .contactSection {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 5px;
+        padding-left: 10px;
+    }
+}

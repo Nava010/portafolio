@@ -1,0 +1,38 @@
+.portfolio {
+    display: flex;
+    width: 99vw;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #D3D3D3;
+    padding: 50px;
+    /*box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);*/
+  }
+  
+  .text-content h1 {
+    font-size: 75px;
+    position: relative;
+    color: #1A1A1A;
+    bottom: 120px;
+    left: 200px;
+    margin: 0;
+    z-index: 1;
+  }
+  
+  .text-content .highlight {
+    color: #1A1A1A;
+  }
+  
+  .image-container img {
+    max-width: 300px;
+    border-radius: 10px;
+    filter: grayscale(100%);
+  }
+  .boxFather {
+    position: relative;
+    top: 80px;
+    margin: 0;
+    background-color: white;
+    left: -50px;
+    width: 750px;
+    height: 230px;
+  }

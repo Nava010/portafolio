@@ -1,0 +1,189 @@
+.aboutMe-description {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 340px;
+}
+.aboutMe-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutMe-son {
+    display: flex ;
+    flex-direction: row;
+    width: 400px;
+    height: 200px;
+}
+.aboutMe-son h1 {
+    font-size: 85px;
+    position: relative;
+    left: 35px;
+}
+.aboutMe-div {
+    position: relative;
+    top: 50%;
+    border-radius: 100px;
+    background-color: yellow;
+    width: 250px;
+    height: 20px;
+}
+.aboutMe-Icon {
+    display: flex;
+    position: relative;
+    right: 25px;
+    gap: 20px;
+    padding-top: 25px ;  
+}
+.aboutMe-Icon2 {
+    display: flex;
+    position: relative;
+    right: 25px;
+    gap: 20px;
+    padding-top: 25px ;  
+}
+.lenguaguesIcon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.aboutMe-p {
+    display: flex;
+    align-items: center;
+}
+.p-father {
+    width: 450px;
+    height: 180px;
+}
+.p-father p{
+    text-align: justify;
+}
+@media(max-width: 163px) {
+    .aboutMe-description {
+       display: flex;
+       flex-direction: column;
+    }
+    .aboutMe-box {
+        
+        width: 99vw;
+        height: 170px;
+    }
+    .aboutMe-son {
+        position: relative;
+        left: 0;
+        height: 170px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutMe-son h1 {
+        font-size: 35px;
+        left: 0;
+    }
+    .aboutMe-div  {
+        display: none;
+    }
+
+    .aboutMe-Icon{
+        flex-direction: row;
+        right: 0;
+        left: 0;
+        bottom: 10px;
+    }
+    .aboutMe-Icon2 {
+        flex-direction: row;
+        right: 0;
+        gap: 35px;
+        padding-top: 0 ; 
+    }
+    .aboutMe-p{
+        justify-content: center;
+        width: 99vw;
+        height: 170px;
+    }
+    .p-father{
+        padding: 15px;
+        width: 99vw;
+        height: 170px;
+    }
+    .p-father p {
+        font-size: small;
+    }
+}
+@media((min-width: 164px) and (max-width:576px)) {
+    .aboutMe-description {
+       display: flex;
+       flex-direction: column;
+    }
+    .aboutMe-box {
+        flex-direction: row;
+        width: 99vw;
+        height: 170px;
+    }
+    .aboutMe-son {
+        position: relative;
+        left: 40px;
+        height: 170px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutMe-son h1 {
+        font-size: 55px;
+        left: 0;
+    }
+    .aboutMe-div  {
+        width: 80px;
+        height: 20px;
+        top: 0;
+    }
+
+    .aboutMe-Icon{
+        flex-direction: column;
+        right: 0;
+        left: 40px;
+        bottom: 10px;
+    }
+    .aboutMe-Icon a {
+        width: 50px;
+        height: 20px;
+    }
+    .aboutMe-Icon2 {
+        flex-direction: column;
+        right: 45px;
+        gap: 45px;
+        padding-top: 0 ; 
+    }
+    .aboutMe-Icon2 a {
+        width: 50px;
+        height: 20px;
+    }
+    .aboutMe-p{
+        justify-content: center;
+        width: 99vw;
+        height: 170px;
+    }
+    .p-father{
+        padding: 15px;
+        width: 99vw;
+        height: 170px;
+    }
+    .p-father p {
+        font-size: small;
+    }
+}
+@media((min-width: 577px) and (max-width:1113px)) {
+    .aboutMe-div  {
+        width: 90px;
+    }
+    .p-father {
+        width: 350px;
+        padding: 10px;
+    }
+}
+@media(width:1114px) {
+    .aboutMe-p  {
+        justify-content: center;
+    }
+    
+}

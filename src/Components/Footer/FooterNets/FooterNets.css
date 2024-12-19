@@ -1,0 +1,49 @@
+.footerNets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+.nets-ul {
+    height: 70px;
+    margin: 0;
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+.nets-li {
+    height: 70px;
+    display: inline-block;
+}
+.netsIcon {
+    width: 60px;
+    height: 60px;
+}
+@media (max-width:163px) {
+    .nets-ul{
+        display: flex;
+        align-items: center;
+        padding-left: 0;
+        height: 50px;
+        gap: 8px
+    }
+    .nets-li {
+        height: 35px;
+    }
+    .netsIcon {  
+        width: 30px;
+        height: 30px;
+    }
+}   
+@media((min-width: 164px) and (max-width:576px)) {
+    .nets-ul {
+        position: relative;
+        bottom: 10px;  
+        padding-left: 0;
+        gap: 30px;
+    }
+    .netsIcon {  
+        width: 45px;
+        height: 45px;
+    }
+}

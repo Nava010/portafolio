@@ -1,0 +1,161 @@
+.workExperience {
+    display: flex;
+    flex-direction: column;
+    width: 99vw;
+    height: 800px;
+}
+.workExperience-title {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    height: 200px;
+}
+.workExperience-title h1 {
+    margin: 0;
+}
+.workExperience-father {
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.workExperience-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 800px;
+    height: 300px;
+}
+.workExperience-box div {
+    background-color: #D3D3D3;
+    padding: 10px;
+}
+.workExperience-box div img {
+    width: 220px;
+    height: 180px;
+    mix-blend-mode: multiply;
+    background-color: transparent;
+}
+.workExperience-box p {
+    text-align: center;
+    height: 200px;
+    padding: 15px;
+    position: relative;
+    top: 30%;
+    margin: 0;
+}
+@media(max-width: 163px) {
+    .workExperience  {
+        position: relative;
+        top: 260px;
+        height: 600px;
+    }
+    .workExperience-father {
+        grid-template-columns: none;
+        margin: 0;
+    }
+    .workExperience-box {
+        grid-template-columns: none;
+        width: 99vw;
+        height: 100px;
+    }
+    .workExperience-box p {
+        display: none;
+    }
+    .workExperience-box div img{
+        width:90px;
+        height: 85px;
+    }
+}
+@media((min-width: 164px) and (max-width:576px)) {
+    .workExperience-title h1 {
+        font-size: 19px;
+    }
+    .workExperience-father {
+        grid-template-columns: none;
+        margin: 0;
+    }
+    .workExperience-box {
+        width: 99vw;
+        height: 173px;
+    }
+    .workExperience-box p {
+        font-size: 12px;
+        height: 140px;
+        top: 0
+    }
+    .workExperience-box div img{
+        width: 170px;
+        height: 130px;
+    }
+}
+@media((min-width: 577px) and (max-width: 1113px)) {
+    .workExperience-title h1 {
+        font-size: 19px;
+    }
+    .workExperience-father {
+        grid-template-columns: none;
+        margin: 0;
+    }
+    .workExperience-box {
+        width: 99vw;
+        height: 173px;
+    }
+    .workExperience-box p {
+        font-size: 14px;
+        height: 140px;
+        top: 0
+    }
+    .workExperience-box div img{
+        width: 200px;
+        height: 130px;
+    }
+}
+@media(width: 1114px) {
+    .workExperience-title h1 {
+        position: relative;
+        font-size: 33px;
+        right: 17px;
+        letter-spacing: 5px;
+    }
+    .workExperience-father {
+        grid-template-columns: none;
+        margin: 0;
+    }
+    .workExperience-box {
+        width: 95vw;
+        height: 173px;
+    }
+    .workExperience-box p {
+        left: 45px;
+        font-size: 14px;
+        height: 140px;
+        top: 0
+    }
+    .workExperience-box div img{
+        width: 200px;
+        height: 130px;
+    }
+}
+@media(width: 1280px) {
+    .workExperience-title h1 {
+        position: relative;
+        font-size: 33px;
+        right: 17px;
+        letter-spacing: 5px;
+    }
+    .workExperience-father {
+        grid-template-columns: none;
+        margin: 0;
+    }
+    .workExperience-box {
+        width: 95vw;
+        height: 173px;
+    }
+    .workExperience-box p {
+        left: 45px;
+        font-size: 14px;
+        height: 140px;
+        top: 0
+    }
+}

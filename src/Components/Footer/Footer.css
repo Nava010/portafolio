@@ -1,0 +1,11 @@
+.footer-box {
+    background-color: #D3D3D3;
+    width: 99vw;
+    height: 200px;
+}
+@media(max-width: 163px) {
+    .footer-box {
+        position: relative;
+        top: 11%;
+    }
+}

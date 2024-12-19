@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poiret+One&display=swap');
+
+.contactFooter {
+    width: 99vw;
+    height: 120px;
+}
+.father-title {
+    display: flex;
+    padding-top: 10px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+.contact-title {
+    height: 40px;
+    margin: 10px 0;
+    font-family: "Arima", system-ui;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.father-paragraph {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+.contact-paragraph {
+    height: 30px;
+    margin: 15px 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: static;
+}
+@media((min-width: 164px) and (max-width:576px)) {
+    .father-paragraph {
+        display: block;
+    }
+    .contact-paragraph {
+        margin: 0;
+
+    }
+}
+@media ((min-width: 577px) and (max-width: 1113px)) {
+    .father-paragraph {
+        display: block;
+    }
+    .contact-paragraph {
+        margin: 0;
+
+    }
+}
+@media (width:1114px) {
+    .contactFooter {
+        display: flex;
+        position: relative;
+        left: 100px;
+        flex-direction: row;
+        align-items: center;
+        gap: 250px;
+    }
+    .father-title {
+        display: flex;
+        
+    }
+}

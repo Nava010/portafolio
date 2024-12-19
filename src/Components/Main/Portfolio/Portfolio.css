@@ -1,0 +1,222 @@
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: #D3D3D3;
+    height: 340px;
+}
+.text-content {
+    display: block;
+    height: 340px;
+    
+}
+.text-content h1 {
+    position: relative;
+    bottom: 45px;
+    font-size: 80px;
+    color: #1A1A1A;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(30, end), blink-caret 0.5s step-end infinite;
+  }
+.whiteBox {
+    position: relative;
+    top: 45%;
+    border-radius: 5px;
+    width: 472px;
+    height: 74px;
+    background-color: white;
+    transform: translateX(100%);
+    animation: slideInRight 1s forwards;
+    
+}
+.yellowBox {
+    position: relative;
+    top: 60%;
+    width: 610px;
+    height: 10px;
+    background-color: yellow;
+    transform: translateX(100%);
+    animation: slideInRight 1s forwards;
+}
+.image-container {
+   height: 340px;
+}
+.divFrame img {
+    position: relative;
+    top: 55px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    opacity: 0;
+    animation: fadeIn 6s forwards;
+}
+.divFrame {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 380px;
+    position: relative;
+    left: 220px;
+    height: 490px;
+    background-color: #FFD700 ; /* Color amarillo */
+    bottom: 44%; /* Ajustar según la posición deseada */
+    z-index: 0;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+@keyframes slideInRight {
+    to {
+      transform: translateX(0);
+    }
+  }
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+@keyframes blink-caret {
+    50% { border-color: transparent; }
+  }
+@keyframes fadeIn {
+    to { opacity: 1; }
+  }
+@media(max-width:163px) {
+    .portfolio {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .text-content {
+        display: grid;
+        align-self: center;
+        justify-self: center;
+        z-index: 0;
+    }
+    .text-content h1 {
+        font-size: 45px;
+        bottom: 30px;
+    }
+    .whiteBox {
+        width: 80px;
+        height: 50px;
+        top: 80px;
+        right: 20px;
+    }
+    .yellowBox {
+        display: none;
+    }
+    .image-container {
+        background-color: yellow;
+    }
+    .divFrame {
+        width: 99vw;
+        height: 170px;
+        left: 0;
+        bottom: 0;
+        background-color: transparent;
+        z-index: 0;
+    }
+    .divFrame img {
+        top: 0;
+        width: 140px;
+        border-radius: 20%;
+        height: 140px;
+    }
+}
+@media((min-width: 164px) and (max-width:576px)) {
+    .portfolio {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .text-content {
+        display: grid;
+        align-self: center;
+        justify-self: center;
+        z-index: 0;
+    }
+    .text-content h1 {
+        font-size: 45px;
+        bottom: 30px;
+    }
+    .whiteBox {
+        width: 200px;
+        height: 50px;
+        top: 80px;
+        right: 100px;
+    }
+    .yellowBox {
+        display: none;
+    }
+    .image-container {
+        background-color: yellow;
+    }
+    .divFrame {
+        width: 99vw;
+        height: 170px;
+        left: 0;
+        bottom: 0;
+        background-color: transparent;
+        z-index: 0;
+    }
+    .divFrame img {
+        top: 0;
+        width: 200px;
+        border-radius: 20%;
+        height: 160px;
+    }
+}
+@media((min-width: 577px) and (max-width: 1113px)) {
+    .portfolio {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .text-content {
+        display: grid;
+        align-self: center;
+        justify-self: center;
+        z-index: 0;
+    }
+    .text-content h1 {
+        font-size: 45px;
+        bottom: 30px;
+    }
+    .whiteBox {
+        width: 400px;
+        height: 50px;
+        top: 80px;
+        right: 200px;
+    }
+    .yellowBox {
+        display: none;
+    }
+    .image-container {
+        background-color: yellow;
+    }
+    .divFrame {
+        width: 99vw;
+        height: 170px;
+        left: 0;
+        bottom: 0;
+        background-color: transparent;
+        z-index: 0;
+    }
+    .divFrame img {
+        top: 0;
+        width: 200px;
+        border-radius: 20%;
+        height: 160px;
+    }
+}
+@media (width: 1114px) {
+    .yellowBox {
+        width: 400px;
+    }
+    .whiteBox {
+        width: 280px;
+    }
+    .divFrame {
+        left: 172px;
+        bottom: 100px;
+        height: 440px;
+        z-index: 0;
+    }
+}
