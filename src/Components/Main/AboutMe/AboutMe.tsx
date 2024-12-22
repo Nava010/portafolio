@@ -1,8 +1,6 @@
 import React from "react";
 import { languageIcons } from "../../Data/Data";
 import "../AboutMe/AboutMe.css"
-import { Icon } from "@react-pdf-viewer/core";
-import { BiColor } from "react-icons/bi";
 
 export const AboutMe = () => {
     return (
@@ -11,7 +9,7 @@ export const AboutMe = () => {
                 <div className="aboutMe-Icon"> 
                     {languageIcons.slice(0,3).map(({id, icon:Icon, color})=> (
                         
-                            <a key={id}  className="text-reset" href="#" type="button" data-bs-toggle="modal" data-bs-target={`#exampleModal${id}`}>
+                            <a key={id}  className="text-reset"  type="button" data-bs-toggle="modal" data-bs-target={`#exampleModal${id}`}>
                                 <Icon className="lenguaguesIcon" color={color}></Icon>
                             </a>
                         
@@ -25,7 +23,7 @@ export const AboutMe = () => {
                 </div>
                 <div className="aboutMe-Icon2">
                     {languageIcons.slice(3).map(({id, icon:Icon, color}) => (
-                            <a key={id}  className="text-reset" href="#" type="button" data-bs-toggle="modal" data-bs-target={`#exampleModal${id}`}>
+                            <a key={id}  className="text-reset"  type="button" data-bs-toggle="modal" data-bs-target={`#exampleModal${id}`}>
                                 <Icon className="lenguaguesIcon" color={color}></Icon>
                             </a>
                     ))}

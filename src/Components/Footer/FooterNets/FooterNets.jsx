@@ -9,7 +9,7 @@ export const FooterNets = () => {
                 {icons.map(({id, icon: Icon, color, url})=> (
                     
                         <li className="nets-li" key={id}>
-                            <a href={url} target="_blank">
+                            <a href={url} target="_blank" rel="noreferrer">
                                 <Icon className="netsIcon" color={color}/>
                             </a>
                         </li>

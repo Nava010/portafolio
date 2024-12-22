@@ -14,7 +14,7 @@ export const Nav = () => {
         <div>
             <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
                 <div className="container">
-                    <a className="navbar-brand" href="#">
+                    <a className="navbar-brand" href="/">
                         <GiAngelOutfit  className="w-75 h-75"/> NAVA
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

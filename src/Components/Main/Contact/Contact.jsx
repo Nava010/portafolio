@@ -12,7 +12,7 @@ export const Contact = () => {
             <div className="contactSection-box">
                 {contactIcons.map(({id, url,text,icon: Icon,color})=>(
                     <section key={id} className="contactSection">
-                        {url ? (<a href={url} target="_blank">
+                        {url ? (<a href={url} target="_blank" rel="noreferrer">
                             <Icon className="contactIcon" color={color}></Icon>
                         </a>) : <Icon className="contactIcon" color={color}></Icon>}
                         <p>{text}</p>

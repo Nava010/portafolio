@@ -1,5 +1,4 @@
 import React from "react";
-import { RiReactjsLine } from "react-icons/ri";
 import "../SectionIcons/SectionIcons.css"
 import { languageIcons } from "../Data/Data";
 
