@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import "../Navigator/Nav.css";
 import { GiAngelOutfit } from "react-icons/gi";
-import {  MdMenu } from 'react-icons/md';
 import { tabs } from "../Data/Data";
-import { Link } from "react-router-dom";
+
 
 export const Nav = () => {
         const [activeTab, setActiveTab] = useState(null);

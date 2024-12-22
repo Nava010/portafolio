@@ -14,7 +14,7 @@ export const WorkExperience = () => {
                         <div key={`work-${work.id}`}>
                             <div className="workExperience-box">
                                 <div >
-                                    <a href={work.url} target="_blank" rel="noopener noreferrer">
+                                    <a href={work.url} target="_blank" rel=" noreferrer">
                                         <img src={work.img} alt={work.alt} />
                                     </a>    
                                 </div>
