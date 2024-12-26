@@ -34,8 +34,8 @@ export const tabs = [
     { id: 4, label: 'CONTACTO', active: false, hrefId: "#contact" }
   ];
 export const works = [
-    {id:1, url: "/portafolio/Documents/77010240 - CERTIFICADO DE TRABAJO.pdf", img: WorkingCenterGroup, text:"Es mi primera experiencia laboral, mi tiempo de duracion fue de 3 meses", alt: "WorkingCenterGroup"  },
-    {id:2, url: "/portafolio/Documents/SCC.pdf", img: SCC, text:"Fue mi segunda experiencia laboral con un tiempo de duracion de 6 meses",alt: "Platzi"  },
+    {id:1, url: "/portafolio/Documents/77010240 - CERTIFICADO DE TRABAJO.pdf", img: WorkingCenterGroup, text:"Es mi primera experiencia laboral, hubo un excelente ambiente laboral y me acople a las normas y metas de la empresa", alt: "WorkingCenterGroup"  },
+    {id:2, url: "/portafolio/Documents/SCC.pdf", img: SCC, text:"Fue mi segunda experiencia laboral ya contaba con experiencia previa y fue mas facil acoplarme a los objetivos de la empresa",alt: "Platzi"  },
     {id:3, url: "/portafolio/Documents/CertificadoTrabajo (91).pdf", img: Webhelp, text:"Es mi ultima carta de recomendacion, enfocado a servicios de atencion a cliente y area de ventas de call center",alt: "Webhelp"  },
     {id:4, url: "/portafolio/Documents/diploma-desarrollo-web.pdf", img: Platzi, text:"Mi diploma por completar el curso online de la Escuela de Desarrollo Web",alt: "Platzi" }
 ]
